@@ -24,6 +24,7 @@
 
         plus.addEventListener("click", () => {
             a++;
+            console.log(a = (a < 10) ? "0" + a : a);
             a = (a < 10) ? "0" + a : a;
             num.innerText = a;
             console.log(a);
